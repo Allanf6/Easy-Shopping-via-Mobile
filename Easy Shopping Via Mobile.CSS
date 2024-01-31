@@ -102,6 +102,9 @@ header{
        height: 50%;
        padding: 0;
        margin: 0;
+       position: relative;
+       top: 31px;
+       left: -16px;
     }
 
     .container-right{
@@ -120,9 +123,11 @@ header{
     }
 
     .girl-cellphone{
-        position: static;
-        width: 90%;
-        height: 322px;
+        position: relative;
+        height: 360px;
+        left: 9px;
+        top: 2px;
+
     }
 
     h1{
@@ -136,8 +141,8 @@ header{
     p{
         Width: auto;
         text-align: center;
-        font-Size: 14px;
-        Line-height: 24px;
+        font-Size: 19px;
+        Line-height: 28px;
         margin: 15px 40px;
     }
         
@@ -145,6 +150,9 @@ header{
     button{
         display: block;   /* para centralizar o button, é necessário colocar o display: block; */
         margin: auto;
+        position: relative;
+        top: 13px;
+        left: 1px;
         
     }
 
